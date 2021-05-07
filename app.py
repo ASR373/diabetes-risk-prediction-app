@@ -16,7 +16,7 @@ html_temp = """
 def main():
 	#st.title("Main App")
 	stc.html(html_temp)
-w
+
 	menu = ["Home", "EDA", "ML", "About"]
 	choice = st.sidebar.selectbox("Menu", menu)
 
