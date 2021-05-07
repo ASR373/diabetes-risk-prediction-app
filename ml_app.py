@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import os
 import numpy as np
+import sklearn
 
 attrib_info = """
 #### Attribute Information:
