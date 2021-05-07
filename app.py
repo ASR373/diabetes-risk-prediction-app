@@ -1,6 +1,7 @@
 # packages
 import streamlit as st
 import streamlit.components.v1 as stc
+import sklearn
 
 # importing the smaller apps
 from eda_app import run_eda_app
