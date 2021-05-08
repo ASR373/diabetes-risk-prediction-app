@@ -1,7 +1,7 @@
 # packages
 import streamlit as st
 import streamlit.components.v1 as stc
-
+from PIL import Image
 
 # importing the smaller apps
 from eda_app import run_eda_app
@@ -41,6 +41,8 @@ def main():
 		st.subheader("About")
 		
 		st.write("### Adith Sreeram - The Data Guy")
+		img = Image.open("asr.jpeg")
+		st.image(img)
 		st.text("""
 		My ambitious dream to become a data scientist is soon to be a reality. Spending hours 
 		looking for the most appropriate content for you never makes me tired, which will 
