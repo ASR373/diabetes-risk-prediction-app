@@ -24,6 +24,7 @@ def main():
 	if choice=="Home":
 		st.header("Web App Tour")
 		st.write("### Check this video once")
+		st.video("web_tour.mp4")
 		#st.subheader("Home")
 		st.write("""
 			### Early Stage Diabetes Risk Predictor App
