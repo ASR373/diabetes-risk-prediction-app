@@ -22,7 +22,9 @@ def main():
 	choice = st.sidebar.selectbox("Menu", menu)
 
 	if choice=="Home":
-		st.subheader("Home")
+		st.header("Web App Tour")
+		st.write("### Check this video once")
+		#st.subheader("Home")
 		st.write("""
 			### Early Stage Diabetes Risk Predictor App
 			This dataset contains the sign and symptoms data of newly diabetic or would be diabetic patient.
